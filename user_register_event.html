@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Event</title>
+    <link rel="stylesheet" href="css/admin_add_event.css">
+    
+</head>
+
+<body>
+   
+    <form action="user_register_event.php" method="post">
+        <h2>Event Registration</h2>
+        <label for="title">Event Title:</label>
+        <input type="text" name="title" required><br>
+
+        <label for="name">name:</label>
+        <textarea name="name" required></textarea><br>
+
+        <label for="rollno">Roll number:</label>
+        <input type="text" name="rollno"><br>
+
+        <label for="branch">Branch:</label>
+        <input type="text" name="branch"><br>
+
+        <label for="year">Year:</label>
+        <input type="text" name="year"><br>
+        <button type="submit">Add Event</button>
+    </form>
+</body>
